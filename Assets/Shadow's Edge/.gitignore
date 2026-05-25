@@ -1,0 +1,26 @@
+# ==========================================
+# 1. Ignore Massive Framework Folders
+# ==========================================
+# Blocks the heavy local SFML toolkit folder entirely from going to GitHub
+SFML/
+
+# ==========================================
+# 2. Block Build Artifacts & Temporary Logs
+# ==========================================
+**/*.exe
+**/*.o
+**/*.obj
+**/*.pdb
+**/*.txt
+**/.vscode/
+
+# ==========================================
+# 3. Whitelist ONLY the 3 Core SFML DLLs
+# ==========================================
+# First, ignore all generic DLLs everywhere
+**/*.dll
+
+# Next, whitelist the 3 loose DLLs sitting in the parent folder
+!sfml-graphics-2.dll
+!sfml-system-2.dll
+!sfml-window-2.dll
