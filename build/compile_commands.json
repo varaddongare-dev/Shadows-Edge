@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/varad/OneDrive/Desktop/Shadow's Edge/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DShadowsEdgeBackend_EXPORTS -g -o CMakeFiles\\ShadowsEdgeBackend.dir\\main.cpp.obj -c \"C:\\Users\\varad\\OneDrive\\Desktop\\Shadow's Edge\\src_cpp\\src\\main.cpp\"",
+  "file": "C:/Users/varad/OneDrive/Desktop/Shadow's Edge/src_cpp/src/main.cpp",
+  "output": "C:/Users/varad/OneDrive/Desktop/Shadow's Edge/build/CMakeFiles/ShadowsEdgeBackend.dir/main.cpp.obj"
+}
+]
